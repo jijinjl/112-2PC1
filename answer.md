@@ -1,12 +1,12 @@
 # 第1次練習-練習-PC1
 >
->學號：1234567
+>學號：111111113
 ><br />
->姓名：王小明
+>姓名：張昕妤
 ><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間)
+>作業撰寫時間：30 (mins，包含程式撰寫時間)
 ><br />
->最後撰寫文件日期：2023/09/22
+>最後撰寫文件日期：2024/03/8
 >
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
@@ -14,43 +14,20 @@
 - [x] 個人認為完成作業須具備觀念
 
 ## 說明程式與內容
+1.Fork老師的倉庫並Clone下來。  
+2.新增A.txt檔案，並插入文字「This is an apple.」。  
+3.Commit並Push到伺服器  
+4.使用git branch新增testdev分支。  
+5.使用git checkout切換testdev分支。  
+6.新增B.txt檔案，插入文字「This is a bear.」。  
+7.Commit並Push到伺服器  
+8.使用git checkout切換main分支。  
+9.新增一檔名為B.txt檔案，並於該檔案內插入「This is a cake.」  
+10.Commit並Push到伺服器  
+11.git merge testdev合併分支  
+12.Commit並Push到伺服器 
 
-開始寫說明，該說明需說明想法，
-並於之後再對上述想法的每一部分將程式進一步進行展現，
-若需引用程式區則使用下面方法，
-若為.cs檔內程式除了於敘述中需註明檔案名稱外，
-還需使用語法` ```語言種類 程式碼 ``` `，其中語言種類若是要用python則使用py，java則使用java，C/C++則使用cpp，
-下段程式碼為語言種類選擇csharp使用後結果：
 
-```csharp
-public void mt_getResult(){
-    ...
-}
-```
-
-若要於內文中標示部分網頁檔，則使用以下標籤` ```html 程式碼 ``` `，
-下段程式碼則為使用後結果：
-
-```html
-<%@ Page Language="C#" AutoEventWireup="true" ...>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" ...>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
-```
-更多markdown方法可參閱[https://ithelp.ithome.com.tw/articles/10203758](https://ithelp.ithome.com.tw/articles/10203758)
 
 ## 個人認為完成作業須具備觀念
-
-開始寫說明，需要說明本次作業個人覺得需學會那些觀念，亦可作為學習筆記使用 (需寫成文章，需最少50字，並且文內不得有你、我、他三種文字)
+理解Git基本概念，熟悉分支、提交、合併、拉取、推送等Git基本概念。操作Git命令：能夠使用命令行執行Git指令，包括add、commit、push、pull、merge等。
